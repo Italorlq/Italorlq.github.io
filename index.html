@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queimadas: Causas, Consequências e Prevenção</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Cabeçalho e Menu de Navegação -->
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#causas">Causas</a></li>
+                <li><a href="#consequencias">Consequências</a></li>
+                <li><a href="#prevencao">Prevenção</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Página Inicial -->
+    <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <h1>Entenda o Impacto das Queimadas</h1>
+        <p>Queimadas são a queima descontrolada da vegetação que causa danos ao meio ambiente e à saúde pública. Elas
+            podem ser provocadas por diversas razões, como práticas agrícolas ou causas naturais.</p>
+        <div class="hero-image">
+            <img src="queimada.jpg" alt="Queimada">
+        </div>
+        <a href="#causas" class="btn hero-btn">Saiba Mais</a>
+    </section>
+
+    <!-- Causas das Queimadas -->
+    <section id="causas" class="content-section">
+        <h2>Causas das Queimadas</h2>
+        <p>As principais causas das queimadas incluem:</p>
+        <ul class="causas-list">
+            <li><i class="fas fa-tractor"></i> Agricultura descontrolada</li>
+            <li><i class="fas fa-trash-alt"></i> Descarte irregular de lixo</li>
+            <li><i class="fas fa-tree"></i> Queimadas ilegais para desmatamento</li>
+        </ul>
+        <img src="causas.jpg" alt="Causas das Queimadas" class="img-fade-in">
+    </section>
+
+    <!-- Consequências das Queimadas -->
+    <section id="consequencias" class="content-section">
+        <h2>Consequências das Queimadas</h2>
+        <div class="impactos">
+            <div>
+                <h3>Impactos Ambientais</h3>
+                <p>As queimadas afetam diretamente a fauna, flora e a qualidade do ar, reduzindo a biodiversidade e
+                    aumentando a poluição.</p>
+            </div>
+            <div>
+                <h3>Impactos Sociais e Econômicos</h3>
+                <p>Além de danos ambientais, as queimadas afetam a saúde pública, geram prejuízos à agricultura e
+                    turismo, e impactam a economia local.</p>
+            </div>
+        </div>
+        <div class="grafico">
+            <!-- Gráficos podem ser criados com SVG ou JavaScript -->
+            <img src="consequencias.jpg" alt="Gráfico sobre queimadas" class="img-fade-in">
+        </div>
+    </section>
+
+    <!-- Prevenção e Combate -->
+    <section id="prevencao" class="content-section">
+        <h2>Prevenção e Combate</h2>
+        <div class="prevention-tips">
+            <h3>Medidas Preventivas</h3>
+            <p>Adote práticas sustentáveis, evite a queima de resíduos e siga as recomendações das autoridades locais.
+            </p>
+            <h3>Recursos de Combate</h3>
+            <p>Em caso de queimadas, acione os órgãos responsáveis e evite se aproximar das áreas afetadas.</p>
+        </div>
+        <div class="botao-acao">
+            <a href="https://www.ibama.gov.br/" target="_blank" class="btn action-btn">Saiba como ajudar</a>
+        </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section id="galeria" class="content-section gallery">
+        <h2>Galeria de Fotos</h2>
+        <div class="gallery-grid">
+            <img src="foto1.jpg" alt="Efeitos das Queimadas" class="img-hover">
+            <img src="foto2.jpg" alt="Prevenção de Queimadas" class="img-hover">
+            <img src="foto3.jpg" alt="Combate às Queimadas" class="img-hover">
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="content-section">
+        <h2>Contato</h2>
+        <form action="#" method="POST" class="form-style">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn submit-btn">Enviar</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: contato@queimadas.com.br</p>
+            <p>Telefone: (00) 1234-5678</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Queimadas - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+
+</html>
